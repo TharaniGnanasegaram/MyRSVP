@@ -1,0 +1,24 @@
+[03-Jul-2023 11:46:43 America/New_York] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home/myrsrlwe/public_html/myrsvpapi/apiserver/db_conn.php:82
+Stack trace:
+#0 /home/myrsrlwe/public_html/myrsvpapi/apiserver/getallevents.php(16): DatabaseConnection->getAllEvents()
+#1 {main}
+  thrown in /home/myrsrlwe/public_html/myrsvpapi/apiserver/db_conn.php on line 82
+[03-Jul-2023 12:05:27 America/New_York] PHP Parse error:  syntax error, unexpected variable "$events" in /home/myrsrlwe/public_html/myrsvpapi/apiserver/db_conn.php on line 82
+[03-Jul-2023 12:18:04 America/New_York] PHP Warning:  Array to string conversion in /home/myrsrlwe/public_html/myrsvpapi/apiserver/db_conn.php on line 85
+[03-Jul-2023 12:18:04 America/New_York] PHP Warning:  Array to string conversion in /home/myrsrlwe/public_html/myrsvpapi/apiserver/db_conn.php on line 85
+[03-Jul-2023 17:19:06 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/myrsrlwe/public_html/myrsvpapi/apiserver/db_conn.php:148
+Stack trace:
+#0 /home/myrsrlwe/public_html/myrsvpapi/apiserver/db_conn.php(148): mysqli_stmt_bind_param()
+#1 /home/myrsrlwe/public_html/myrsvpapi/apiserver/createEvent.php(31): DatabaseConnection->createEvent()
+#2 {main}
+  thrown in /home/myrsrlwe/public_html/myrsvpapi/apiserver/db_conn.php on line 148
+[03-Jul-2023 17:20:21 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/myrsrlwe/public_html/myrsvpapi/apiserver/db_conn.php:148
+Stack trace:
+#0 /home/myrsrlwe/public_html/myrsvpapi/apiserver/db_conn.php(148): mysqli_stmt_bind_param()
+#1 /home/myrsrlwe/public_html/myrsvpapi/apiserver/createEvent.php(31): DatabaseConnection->createEvent()
+#2 {main}
+  thrown in /home/myrsrlwe/public_html/myrsvpapi/apiserver/db_conn.php on line 148
+[03-Jul-2023 17:52:29 America/New_York] PHP Warning:  Undefined variable $eventinvitation in /home/myrsrlwe/public_html/myrsvpapi/apiserver/updateevent.php on line 26
+[03-Jul-2023 17:53:21 America/New_York] PHP Warning:  Undefined variable $eventinvitation in /home/myrsrlwe/public_html/myrsvpapi/apiserver/updateevent.php on line 26
+[03-Jul-2023 17:56:32 America/New_York] PHP Warning:  Array to string conversion in /home/myrsrlwe/public_html/myrsvpapi/apiserver/db_conn.php on line 278
+[03-Jul-2023 18:02:52 America/New_York] PHP Warning:  Array to string conversion in /home/myrsrlwe/public_html/myrsvpapi/apiserver/db_conn.php on line 278

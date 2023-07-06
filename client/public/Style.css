@@ -1,0 +1,532 @@
+body{
+    background-color: #dcecea;
+}
+
+.flexItem{
+    background-color: #3a0e01;
+    color: #fae7e5;
+    height: 60pt;
+    text-align: center;
+    font-family: serif;
+    font-style: italic;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 80px;
+}
+
+#logoimg{
+    margin: auto;
+    max-width: 15%;
+}
+
+#eventstable{
+    width: 85%;
+    margin: 40px auto;
+}
+
+
+#titleName {
+    margin: 0px 200px 0px 0px;
+    /* clear: both; */
+    text-align: center;
+    color: #c03903;
+    font-size: 55px;
+    font-family: Forte, Georgia;
+}
+
+.titleHeadingStyle  {
+    color: #e6f6ff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    /* padding-left: 45px; */
+    /* padding-bottom: 25px; */
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.nav {
+    padding: 0px 0px 5px 0px;
+    float: right;
+    width: 40%;
+}
+
+.nav_ul {
+    float: right;
+    list-style: none;
+    margin: auto;
+    padding-right: 75px;
+}
+
+.nav_ul_link {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'sans - serif';
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #5e7704;
+}
+
+.nav_ul_link:hover{
+    color: #ad4f10;
+    text-shadow: 0px 0px 1px #ad4910;
+}
+
+#homecontent  {
+    padding-top: 5px;
+    clear: both
+}
+
+.homeimg{
+    max-width: 100%;
+}
+
+.servhomeimg{
+    max-width: 80%;
+}
+
+.serproimg{
+    max-width: 90%;
+}
+
+.serprologinimg{
+    max-width: 80%;
+}
+
+.homeimgs{
+    max-width: 100%;
+    max-height: 250px;
+}
+
+.serhomeimgs{
+    max-width: 90%;
+    max-height: 550px;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonDivService {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonDivOut {
+    margin-top: 100px;
+    width: 70%;
+    margin: auto;
+}
+
+.buttonDivOutService {
+    margin-top: 100px;
+    width: 95%;
+    margin: auto;
+}
+
+.buttonstyle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'sans - serif';
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    background-color: #ec8072;
+    color: rgb(240, 238, 230);
+    padding: 15px;
+    text-transform: uppercase;
+    border-color: darksalmon;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.registerbuttonstyle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'sans - serif';
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    background-color: #1c4d09;
+    color: rgb(240, 238, 230);
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 15px;
+    width: 60%;
+}
+
+
+.recaptcha-container{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.tablebuttonstyle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'sans - serif';
+    background-color: #216307;
+    color: rgb(240, 238, 230);
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.updateServiceButton {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'sans - serif';
+    font-size: 1em;
+    letter-spacing: 1px;
+    background-color: #1c4d09;
+    color: rgb(240, 238, 230);
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 15px;
+    width: 30%;
+}
+
+
+.cancelupdateServiceButton{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'sans - serif';
+    font-size: 1em;
+    letter-spacing: 1px;
+    background-color: #6b1d09;
+    color: rgb(240, 238, 230);
+    padding: 10px;
+    border-color: #240903;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 15px;
+    width: 30%;
+}
+
+
+.MuiFormHelperText-root {
+    color: #cc0d1d !important;
+  }
+  
+.buttonstyle:hover{
+    background-color: #70170b;
+    border-color: rgb(145, 42, 8);
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #descrip{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 22px;
+      font-weight: 300;
+      padding: 25px 0px 35px 0px;
+      text-align: center;
+      width: 70%;
+      margin: auto;
+  }
+
+  #descripHead{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 50;
+    color: crimson;
+  }
+
+  .twocolumns{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin: 3%;
+  }
+
+  .twocolumnslogin{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #linehr{
+     background-color: #240312 ;
+  }
+
+  #serprohead{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 27px;
+    font-weight: 300;
+    color: #aa3304;
+    clear: both;
+  }
+
+
+  #serproheading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: 300;
+    color: #661f03;
+    clear: both;
+  }
+
+
+.signupformdiv  {
+    font-size: 20px;
+    background-color: #c4c2bb;
+    border-radius: 15px;
+    padding: 15px;
+    /* margin: 15px; */
+}
+
+
+#loginUserform{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.addeventformdiv  {
+    width: 50%;
+    font-size: 20px;
+    background-color: #c4c2bb;
+    border-radius: 15px;
+    padding: 15px 0px 5px 0px;
+    margin: auto;
+}
+#containerInsinde{
+    width: 100%;
+}
+
+#formhead{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: 50;
+    color: rgb(121, 28, 28);
+}
+
+#editformhead{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    font-weight: 50;
+    color: rgb(121, 28, 28);
+    padding-top: 10px;
+    margin: 5px;
+}
+
+#topLine {
+    height: 10px;
+    background-color: #ee7e51;
+    margin-bottom:10px;
+}
+
+#servicestable{
+    width: 80%;
+    margin: auto;
+}
+
+.imgicons{
+    cursor: pointer;
+}
+
+#editMyServiceform{
+    width: 50%;
+    margin: 12px auto 0px auto;
+    background-color: rgb(165, 171, 173);
+    border-radius: 15px;
+    padding-bottom: 30px;
+}
+
+#guestnodiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.timespan{
+    color: rgb(24, 83, 138);
+}
+
+.eventtimespan{
+    color: rgb(24, 83, 138);
+}
+
+.rsvpwarning{
+    color: darkred;
+    font-size: 15px;
+    margin: 10px;
+}
+
+#subhead{
+    color: mediumvioletred;
+}
+
+#timerclass{
+    color: rgb(148, 11, 98);
+    font-size: 18px;
+    margin: 10px;
+    font-weight: 500;
+}
+
+#vimeovideo{
+    width: 100%;
+}
+
+.vimeo-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .vimeo-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .mydatetimepick{
+      background-color: #dcecea;
+      font-size: medium;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .textclass{
+      width: 100%;
+  }
+
+  #insertUrlform{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 9999;
+  }
+
+  .popup{
+    background: rgb(240, 255, 252);
+    padding: 5px;
+    border-color:rgb(121, 28, 28);
+    border-radius: 10px;
+  }
+
+  .editpopup{
+    background: rgb(240, 255, 252);
+    padding: 50px;
+    border-color:rgb(121, 28, 28);
+    border-radius: 10px;
+  }
+
+
+  #updateeventform{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 9999;
+  }
+
+  #streamhead{
+      font-size: 27px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: rgb(9, 56, 100);
+  }
+
+
+  /*Tablet view*/
+@media only all and (max-width:1024px) {
+ 
+    .twocolumnslogin{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .addeventformdiv  {
+        width: 80%;
+        font-size: 20px;
+        background-color: #c4c2bb;
+        border-radius: 15px;
+        padding: 15px 0px 5px 0px;
+        margin: auto;
+    }
+
+    #streamhead{
+        font-size: 22px;
+    }
+  }
+  
+    /*Mobile view*/
+  @media only all and (max-width:760px) {
+   
+    .twocolumnslogin{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 3%;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #serprohead{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 18px;
+        font-weight: 300;
+        color: #aa3304;
+        clear: both;
+      }
+    
+      .addeventformdiv  {
+        width: 80%;
+        font-size: 20px;
+        background-color: #c4c2bb;
+        border-radius: 15px;
+        padding: 15px 0px 5px 0px;
+        margin: auto;
+    }
+      #serproheading{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 22px;
+        font-weight: 300;
+        color: #661f03;
+        clear: both;
+      }
+
+      #formhead{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 18px;
+        font-weight: 50;
+        color: rgb(121, 28, 28);
+    }
+
+    #timerclass{
+        color: rgb(148, 11, 98);
+        font-size: 14px;
+        margin: 10px;
+        font-weight: 500;
+    }
+
+    #streamhead{
+        font-size: 18px;
+    }
+
+    #logoimg{
+        margin: auto;
+        max-width: 25%;
+    }
+
+  }
